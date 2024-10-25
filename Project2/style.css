@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap'); */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  background-image: linear-gradient(200deg, #aebaf8,  #f03434);
+}
+.boarding-pass{
+  position: relative;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+.boarding-pass .card{
+  display: flex;
+  background-color: azure;
+  padding: 24px;
+
+}
+.boarding-pass .card .card-top{
+  text-align: left;
+  border-radius: 16px 16px 0 0;
+}
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 16px;
+  font-weight: bold;
+}
+/* .boarding-pass .card.card-top .code{
+  font-size: 30px;
+  font-weight: bold;
+} */
+.to{
+  position: relative;
+  height: 50px;
+  width: 100px;
+  top: 12px;
+  border-radius: 100% 100% 0 0/ 180% 180% 0 0;
+  border: 2px dashed transparent;
+  border-top-color: white;
+}
+.boarding-pass .card.card-bottom{
+  flex-direction: column;
+  border-radius: 0 0 16px 16px;
+}
+.boarding-pass .card.card-bottom .card-row{
+  display: flex;
+}
+.boarding-pass .card.card-bottom .label{
+  color: #FF4B2B;
+  font-weight: bold;
+}
+
+.submit{
+  width: fit-content;
+  border: 1px solid #FF4B2B;
+  background-color: #FF4B2B;
+}
+.submit:hover{
+  border: 1px solid #FF416C;
+  background-color: #FF416C;
+}
